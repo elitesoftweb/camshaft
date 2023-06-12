@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Camshaft Group</title>
+    <meta name="description" content="TAGLINE">
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,user-scalable=no">
+    <link rel="icon" type="image/png" href="https://asaanweb.com/CamShaft/favicon.png" />
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="https://asaanweb.com/CamShaft/dist/main-style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-55333406-1');
+    </script>
+</head>
+
+<body class="text-f14 m:text-f12 leading-[2] font-light font-sans bg-oil is-loading min-h-full">
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<defs>
+			<symbol id="icon-facebook" viewBox="0 0 32 32">
+				<path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+			</symbol>
+			<symbol id="icon-twitter" viewBox="0 0 32 32">
+				<path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"> </path>
+			</symbol>
+		</defs>
+	</svg>
+    <div class="fixed inset-0 bg-oil z-[9999] overflow-hidden js-i-intro">
+        <div class="absolute inset-0 flex items-center justify-center js-i-mask">
+            <div class="-ml-15 m:-ml-30 opacity-0 h-[6rem] m:h-[12rem] w-[auto] js-i-lottie"></div>
+        </div>
+    </div>
+    <div class="cookie-notice hidden items-center py-15 px-15 justify-between fixed left-[3rem] m:left-auto bottom-[5rem] right-[3rem] m:right-[7.5rem] text-stone bg-[#777] bg-opacity-75 backdrop-filter backdrop-blur-lg rounded-full js-cookie-notice">
+        <a href="#" class="flex flex-col items-start pl-15 m:mr-150">
+            <p class="text-14 m:text-18 leading-[1.4]">This website uses cookies</p> <span class="text-8 m:text-12 uppercase">Read our cookie policy</span> </a>
+        <button type="button" class="js-cookie-consent"> <img src="https://asaanweb.com/CamShaft/assets/logo_data/check-icon.svg" class="h–[5rem] w-[5rem] m:h-[7rem] m:w-[7rem]" alt="Consent icon"> </button>
+    </div>
+<header class="fixed top-0 left-0 w-full flex justify-between items-center z-[999] pointer-events-none">
+    <div class="relative z-2">
+        <div class="relative overflow-hidden">
+            <div class="relative flex h-[7.5rem] m:h-[13rem]">
+                <a href="#" class="logo-link relative block pointer-events-auto bg-oil before:absolute before:bottom-0 before:left-0 before:w-full before:h-[1px] before:bg-stone before:opacity-25 js-to-home relative z-2 pointer-events-auto menu-toggle w-[7.5rem] m:w-[13rem] js-logo-ani-btn">
+                    <div class="logo-ani absolute top-1/2 left-[1.75rem] m:left-[3rem] h-[4rem] m:h-[6.4rem] w-auto transform -translate-y-1/2 js-lottie-logo menu-toggle">
+                        <div class="menu-icon">
+                            <img src="https://asaanweb.com/CamShaft/assets/images/3-bars.png" alt="Close Icon" class="w-[4rem] h-[4rem] m:w-[6.5rem] m:h-[6.5rem] close-icon">
+                            <img src="https://asaanweb.com/CamShaft/assets/logo_data/logo.svg" alt="Menu Bars" class="w-[4rem] h-[4rem] m:w-[6.5rem] m:h-[6.5rem] bars-icon">
+                        </div>
+                    </div>
+                    <div class="w-[7.5rem] h-[7.5rem] m:w-[13rem] m:h-[13rem] flex items-center justify-center logo-device">
+                        <img src="https://asaanweb.com/CamShaft/assets/logo_data/logo.svg" alt="Camshaft Group" class="w-[4rem] h-[4rem] m:w-[6.5rem] m:h-[6.5rem]">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Rest of the header content -->
+</header>
+
+<aside class="invisible fixed top-0 left-0 m:left-[13rem] right-0 h-full overflow-hidden z-[998] text-stone js-menu">
+    <div class="meny-scroll absolute inset-0 bg-oil overscroll-none overflow-y-scroll overflow-x-hidden m:overflow-hidden js-menu-inner">
+        <div class="relative m:absolute inset-0 flex flex-col m:justify-end pt-150 m:pt-0 px-30 m:px-130">
+            <nav class="flex flex-wrap w-full items-end justify-between pb-40 m:pb-60">
+                <ul class="w-full m:w-auto flex flex-col items-start">
+                    <li>
+                        <a href="hedge-funds.html" class="group menu-link block leading-[1.1] overflow-hidden py-10 m:py-15 js-site-link">
+                            <div class="flex items-center text-gold js-menu-slide-up">
+                                <span class="text-16 w-[3.7rem] m:w-[7rem] opacity-75">01</span>
+                                <span class="menu-link__underline text-f9 m:text-f4 font-serif group-hover:text-canary before:bg-canary before:bg-light-navy">Hedge Funds</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Rest of the menu items -->
+                </ul>
+                <!-- Rest of the menu -->
+            </nav>
+        </div>
+    </div>
+</aside>
+
+<div class="invisible fixed top-0 left-0 w-full h-full bg-oil z-[997] js-t-mask"></div>
+
+    <!--    <main class="main" role="main" itemscope itemprop="mainContentOfPage" data-router-wrapper>-->
+    <!--    <article data-router-view="home" id="home" class="js-home-scroll">-->
+    <!--        <div class="fixed top-0 left-0 h-full z-10 w-[13rem] hidden m:flex flex-col items-center justify-end pb-65">-->
+    <!--            <div class="relative w-[3rem] text-center text-stone text-f16 mb-40 overflow-hidden">-->
+    <!--                <div class="relative w-full js-index js-i-index">1</div>-->
+    <!--                <div class="absolute top-0 left-0 w-full js-index">2</div>-->
+    <!--                <div class="absolute top-0 left-0 w-full js-index">3</div>-->
+    <!--                <div class="absolute top-0 left-0 w-full js-index">4</div>-->
+    <!--                <div class="absolute top-0 left-0 w-full js-index">5</div>-->
+    <!--                <div class="absolute top-0 left-0 w-full js-index">6</div>-->
+    <!--                <div class="absolute top-0 left-0 w-full js-index">7</div>-->
+    <!--            </div>-->
+    <!--            <div class="relative w-[1px] h-[33rem] bg-stone bg-opacity-25 mb-40 origin-bottom js-i-progress">-->
+    <!--                <div class="absolute top-0 left-0 w-full h-full bg-stone origin-bottom transform scale-y-[0] js-progress"> </div>-->
+    <!--                <div class="absolute top-0 left-0 w-full h-full bg-stone origin-top transform scale-y-[0] js-progress-out"> </div>-->
+    <!--            </div>-->
+    <!--            <div class="relative flex flex-col items-center">-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone mb-15 js-bullet js-i-bullet"> </div>-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone mb-15 js-bullet js-i-bullet"> </div>-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone mb-15 js-bullet js-i-bullet"> </div>-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone mb-15 js-bullet js-i-bullet"> </div>-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone mb-15 js-bullet js-i-bullet"> </div>-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone mb-15 js-bullet js-i-bullet"> </div>-->
+    <!--                <div class="bullet relative w-[5px] h-[5px] rounded-full border border-stone js-bullet js-i-bullet"> </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="relative z-1">-->
+                <!-- Slide 1 - Home hero -->
+    <!--            <div class="relative m:fixed screen-h m:h-full w-full top-0 left-0 overflow-hidden js-section">-->
+    <!--                <div class="relative m:absolute top-0 m:left-[13rem] right-0 h-full overflow-hidden flex items-end px-30 m:pl-80 pb-40 m:pb-80 js-section-inner">-->
+    <!--                    <figure class="absolute h-full w-full top-0 left-0 overflow-hidden js-home-parallax">-->
+    <!--                        <div class="absolute inset-[-15px] overflow-hidden js-img-scale js-i-scale js-t-scale">-->
+                                <!-- Option 1 - Lighthouse--><img src="https://asaanweb.com/CamShaft/assets/background_data/hero.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-home-parallax-item js-hero-load" alt="">
+                                <!-- Option 2 - Whale -->
+                                <!-- <img src="https://asaanweb.com/CamShaft/assets/background_data/option-3-min.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-home-parallax-item js-hero-load" alt=""> -->
+                                <!-- Astoncm imagery -->
+                                <!-- <img src="https://asaanweb.com/CamShaft/assets/background_data/background-image-3.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-home-parallax-item js-hero-load" alt="">
+    <!--                            <img src="https://asaanweb.com/CamShaft/assets/background_data/background-image-2.png" class="absolute h-full w-full top-0 left-0 object-cover js-home-parallax-item js-hero-load" alt="" aria-hidden="true">-->
+    <!--                            <img src="https://asaanweb.com/CamShaft/assets/background_data/background-image-1.png" class="absolute h-full w-full top-0 left-0 object-cover js-home-parallax-item js-hero-load" alt="" aria-hidden="true"> --></div>-->
+    <!--                    </figure>-->
+    <!--                    <div class="relative flex flex-col z-2">-->
+    <!--                        <h1 class="text-f6 m:text-f1 font-serif text-oil leading-[1.1] js-lines js-t-lines js-i-lines">-->
+    <!--                            Camshaft Group-->
+    <!--                        </h1>-->
+
+    <!--                        <span class="font-medium text-f17 m:text-f13 uppercase mt-20 m:mt-30 text-stone text-electric text-dropshadow js-lines js-t-lines js-i-lines">-->
+    <!--                            <a href="hedge-funds.html" class="text-oil" style="margin-right:10px;">-->
+                                    <!-- <img src="https://asaanweb.com/CamShaft/assets/background_data/hyperlink-icon.png" width="25" style="display: inline; margin-top: -8px; opacity: 0.5;" alt=""> -->
+    <!--                                Hedge Funds-->
+    <!--                            </a>-->
+    <!--                            <a href="investment-banking.html" class="text-oil" style="margin-right:10px;">-->
+                                    <!-- <img src="https://asaanweb.com/CamShaft/assets/background_data/hyperlink-icon.png" width="25" style="display: inline; margin-top: -8px; opacity: 0.5;" alt=""> -->
+    <!--                                Investment Banking-->
+    <!--                            </a>-->
+    <!--                            <a href="consulting.html" class="text-oil">-->
+                                    <!-- <img src="https://asaanweb.com/CamShaft/assets/background_data/hyperlink-icon.png" width="25" style="display: inline; margin-top: -8px; opacity: 0.5;" alt=""> -->
+    <!--                                Consulting-->
+    <!--                            </a>-->
+    <!--                        </span> -->
+                            
+                            
+                            <!-- <span class="font-medium text-f15 uppercase mt-30 m:mt-50 text-stone text-light-navy text-dropshadow js-lines js-t-lines js-i-lines">
+    <!--                            <a href="https://www.camshaftcapital.com/files/21.11-Camshaft-Capital-Prospectus.pdf" class="text-oil">-->
+    <!--                                <img src="https://asaanweb.com/CamShaft/assets/background_data/download-icon.png" width="15" style="display: inline;" alt="">-->
+    <!--                                Download Executive Summary and 2021 Performance-->
+    <!--                            </a>-->
+    <!--                        </span>  -->-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- Slide 2 - Overview -->
+    <!--            <div class="relative m:fixed h-full w-full top-0 left-0 overflow-hidden text-oil js-section">-->
+    <!--                <div class="relative m:absolute top-0 m:left-[13rem] right-0 h-full overflow-hidden flex flex-wrap js-section-inner">-->
+    <!--                    <div class="w-full m:w-1/2 m:flex items-center justify-center bg-stone">-->
+    <!--                        <div class="flex flex-col items-start px-30 m:pl-130 m:pr-100 py-70 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-20 m:mb-30 leading-none js-lines">Overview</span>-->
+    <!--                            <h2 class="text-f10 m:text-f5 leading-[1.1] font-serif js-lines">-->
+    <!--                                Outperforming our peers with risk-averse, diversified return streams-->
+    <!--                            </h2>-->
+    <!--                            <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                <p>Camshaft Capital finds profits in positive, negative, and even non-directional market movements by blending non-correlated investment strategies, multiple timeframes, and by pursuing diverse products and market sectors.-->
+    <!--                                    Our approach minimizes volatility and risk, but not performance.</p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <figure class="w-full m:w-1/2 relative overflow-hidden">-->
+    <!--                        <div class="m:hidden aspect" style="--aspect: 85%;"></div> <img src="https://asaanweb.com/CamShaft/assets/page_data/image-2.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-img-scale" alt="Home 2"> </figure>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- Slide 3 - 4 performance boxes -->
+    <!--            <div class="relative m:fixed m:h-full top-0 m:left-[13rem] right-0 bg-stone flex overflow-hidden js-section">-->
+    <!--                <div class="flex js-section-inner">-->
+    <!--                    <div class="m:flex m:whitespace-nowrap js-scroll-section">-->
+    <!--                        <div class="w-screen m:w-auto m:flex bg-electric text-stone whitespace-normal">-->
+    <!--                            <div class="m:w-[148.3rem] m:flex items-center">-->
+    <!--                                <div class="flex flex-col items-start px-30 m:pl-130 m:pr-[52.2rem] py-75 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-20 m:mb-30 leading-nonee js-lines">Performance</span>-->
+    <!--                                    <h2 class="text-f10 m:text-f3 leading-[1.1] font-serif js-lines">A <span class="title-underline">proven<span class="js-underline"></span></span> track record </h2>-->
+    <!--                                    <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                        <p>The Fund's multi-layered diversification strategy has allowed it to consistently outperform the S&P 500 and other hedge funds year after year, no matter the market conditions.</p>-->
+    <!--                                    </div>-->
+    <!--                                    <a href="performance.html" class="font-medium uppercase group inline-flex rounded-full overflow-hidden relative bg-gold text-stone mt-50 text-f15 js-up js-s-lines-btn">-->
+    <!--                                        <div class="w-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[0%] group-hover:translate-y-[-100%] px-50 h-[6.4rem]"> Learn more</div>-->
+    <!--                                        <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[100%] group-hover:translate-y-[0%]" aria-hidden="true">Learn more</div>-->
+    <!--                                    </a>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="relative z-2 m:flex bg-stone text-stone whitespace-normal before:absolute before:top-0 before:left-0 before:w-full before:h-[5rem] before:bg-oil m:before:hidden js-scroll-section-end">-->
+    <!--                            <div class="m:w-[148.3rem] relative z-2 flex items-center">-->
+    <!--                                <div class="w-full m:flex m:ml-[-35.2rem] px-30 m:px-0 pb-75 m:pb-0 js-flick-carousel">-->
+    <!--                                    <article class="carousel-cell relative flex flex-col justify-between items-start text-stone px-30 m:px-65 py-50 m:py-85 m:min-w-[52.2rem] h-[40rem] m:h-[64.8rem] js-box">-->
+    <!--                                        <div class="absolute inset-0 bg-gold origin-bottom js-box-bg"></div>-->
+    <!--                                        <div class="flex items-center justify-center relative z-2 w-[5.6rem] m:w-[7.2rem] h-[5.6rem] m:h-[7.2rem] rounded-full border border-stone border-opacity-25 js-box-item">-->
+    <!--                                            <div class="w-[4rem] m:w-[5rem] h-auto js-lottie-icon js-s-lottie-m" data-icon="graph"></div>-->
+    <!--                                        </div>-->
+    <!--                                        <div class="relative z-2">-->
+    <!--                                            <h2 class="text-f3 m:text-f3 font-serif mb-15 js-box-item">32.70%</h2>-->
+    <!--                                            <p class="js-box-item">2021 Net Return Percentage</p>-->
+    <!--                                        </div>-->
+    <!--                                    </article>-->
+    <!--                                    <article class="m:ml-90 carousel-cell relative flex flex-col justify-between items-start text-stone px-30 m:px-65 py-50 m:py-85 m:min-w-[52.2rem] h-[40rem] m:h-[64.8rem] js-box">-->
+    <!--                                        <div class="absolute inset-0 bg-oil origin-bottom js-box-bg"></div>-->
+    <!--                                        <div class="flex items-center justify-center relative z-2 w-[5.6rem] m:w-[7.2rem] h-[5.6rem] m:h-[7.2rem] rounded-full border border-stone border-opacity-25 js-box-item">-->
+    <!--                                            <div class="w-[4rem] m:w-[5rem] h-auto js-lottie-icon js-s-lottie-m" data-icon="graph"></div>-->
+    <!--                                        </div>-->
+    <!--                                        <div class="relative z-2">-->
+    <!--                                            <h2 class="text-f3 m:text-f3 font-serif mb-15 js-box-item">57.34%</h2>-->
+    <!--                                            <p class="js-box-item">2020 Net Return Percentage</p>-->
+    <!--                                        </div>-->
+    <!--                                    </article>-->
+    <!--                                    <article class="m:ml-90 carousel-cell relative flex flex-col justify-between items-start text-stone px-30 m:px-65 py-50 m:py-85 m:min-w-[52.2rem] h-[40rem] m:h-[64.8rem] js-box">-->
+    <!--                                        <div class="absolute inset-0 bg-gold origin-bottom js-box-bg"></div>-->
+    <!--                                        <div class="flex items-center justify-center relative z-2 w-[5.6rem] m:w-[7.2rem] h-[5.6rem] m:h-[7.2rem] rounded-full border border-green border-opacity-25 js-box-item">-->
+    <!--                                            <div class="w-[4rem] m:w-[5rem] h-auto js-lottie-icon js-s-lottie-m" data-icon="graph"></div>-->
+    <!--                                        </div>-->
+    <!--                                        <div class="relative z-2">-->
+    <!--                                            <h2 class="text-f3 m:text-f3 font-serif mb-15 js-box-item">32.05%</h2>-->
+    <!--                                            <p class="js-box-item">2019 Net Return Percentage</p>-->
+    <!--                                        </div>-->
+    <!--                                    </article>-->
+    <!--                                    <article class="m:ml-90 carousel-cell relative flex flex-col justify-between items-start text-stone px-30 m:px-65 py-50 m:py-85 m:min-w-[52.2rem] h-[40rem] m:h-[64.8rem] js-box">-->
+    <!--                                        <div class="absolute inset-0 bg-canary bg-light-navy origin-bottom js-box-bg"></div>-->
+    <!--                                        <div class="flex items-center justify-center relative z-2 w-[5.6rem] m:w-[7.2rem] h-[5.6rem] m:h-[7.2rem] rounded-full border border-green border-opacity-25 js-box-item">-->
+    <!--                                            <div class="w-[4rem] m:w-[5rem] h-auto js-lottie-icon js-s-lottie-m" data-icon="eye-icon"></div>-->
+    <!--                                        </div>-->
+    <!--                                        <div class="relative z-2">-->
+    <!--                                            <h2 class="text-f3 m:text-f3 font-serif mb-15 js-box-item">2019</h2>-->
+    <!--                                            <p class="js-box-item">Performance</p>-->
+    <!--                                        </div>-->
+    <!--                                    </article>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- Slide 4 - Partners  -->
+    <!--            <div class="relative m:fixed m:h-full w-full top-0 left-0 overflow-hidden text-electric js-section">-->
+    <!--                <div class="relative m:absolute top-0 m:left-[13rem] right-0 h-full overflow-hidden flex flex-wrap js-section-inner">-->
+    <!--                    <figure class="w-full m:w-1/2 relative overflow-hidden">-->
+    <!--                        <div class="m:hidden aspect" style="--aspect: 85%"></div> <img src="https://asaanweb.com/CamShaft/assets/page_data/image-1.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-img-scale" alt="Home 3"> </figure>-->
+    <!--                    <div class="w-full m:w-1/2 m:flex items-center justify-center bg-stone">-->
+    <!--                        <div class="flex flex-col items-start px-30 m:pl-130 m:pr-100 py-70 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-20 m:mb-30 leading-none js-lines">Partners</span>-->
+    <!--                            <h2 class="text-f10 m:text-f5 leading-[1.1] font-serif js-lines">-->
+    <!--                                <span class="title-underline">Partnered <span class="js-underline"></span></span>with the best. -->
+    <!--                            </h2>-->
+    <!--                            <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                <p>We want to give our clients secure, efficient, and top-of-the-line service. That's why we partner with leaders in every sector to service our fund.</p>-->
+    <!--                            </div>-->
+                                <!-- <div class="txt mt-25 m:mt-40 js-p-lines">
+    <!--                                <p><img src="assets/logo_data/partner-logos.png"></p>-->
+    <!--                            </div> -->-->
+    <!--                             <a href="#" class="font-medium uppercase group inline-flex rounded-full overflow-hidden relative bg-light-navy text-stone mt-50 text-f15 js-up js-s-lines-btn">-->
+    <!--                                <div class="w-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[0%] group-hover:translate-y-[-100%] px-50 h-[6.4rem]">View All Partners</div>-->
+    <!--                                <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[100%] group-hover:translate-y-[0%]" aria-hidden="true">View All Partners</div>-->
+    <!--                            </a> -->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- Slide 5 - Method -->
+    <!--            <div class="relative m:fixed m:h-full w-full top-0 left-0 overflow-hidden text-stone js-section">-->
+    <!--                <div class="relative m:absolute top-0 m:left-[13rem] right-0 h-full overflow-hidden flex flex-wrap js-section-inner">-->
+    <!--                    <figure class="w-full m:w-1/2 relative overflow-hidden">-->
+    <!--                        <div class="m:hidden aspect" style="--aspect: 85%"></div> <img src="https://asaanweb.com/CamShaft/assets/page_data/image-3.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-img-scale" alt="Home 4"> </figure>-->
+    <!--                    <div class="w-full m:w-1/2 m:flex items-center justify-center bg-oil s:order-first">-->
+    <!--                        <div class="flex flex-col items-start px-30 m:pl-130 m:pr-100 py-70 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-20 m:mb-30 leading-none js-lines">Method</span>-->
+    <!--                            <h2 class="text-f10 m:text-f5 leading-[1.1] font-serif js-lines">-->
+    <!--                                Our risk-diversified, <br> non-correlated <br>-->
+    <!--                                 <span class="title-underline">investment strategy<span class="js-underline"></span></span>.-->
+    <!--                            </h2>-->
+    <!--                            <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                <p dir="ltr">Camshaft Capital uses a mixture of trading strategies and timeframes to maximize returns. We pursue diversified asset classes to find value in all market conditions. Our non-correlated strategies, combined with allocation limits on each strategy, timeframe, direction, sector and investment class effectively limit risk.-->
+    <!--                                    <br />-->
+    <!--                                </p>-->
+    <!--                            </div>-->
+    <!--                            <a href="method.html" class="font-medium uppercase group inline-flex rounded-full overflow-hidden relative bg-electric text-stone mt-50 text-f15 js-up js-s-lines-btn">-->
+    <!--                                <div class="w-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[0%] group-hover:translate-y-[-100%] px-50 h-[6.4rem]"> Learn More</div>-->
+    <!--                                <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[100%] group-hover:translate-y-[0%]" aria-hidden="true">Learn More</div>-->
+    <!--                            </a>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- Slide 6 - Individual / Institutional -->
+    <!--            <div class="relative m:fixed m:h-full w-full top-0 left-0 overflow-hidden js-section">-->
+    <!--                <div class="relative m:absolute top-0 m:left-[13rem] right-0 bg-stone h-full inset-0 overflow-hidden flex flex-wrap js-section-inner">-->
+    <!--                    <div class="w-full m:w-1/2 m:flex items-center justify-center text-gold">-->
+    <!--                        <div class="flex flex-col items-start px-30 m:pl-130 m:pr-100 py-70 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-30 leading-none js-lines">Personal Account</span>-->
+    <!--                            <h2 class="text-f10 m:text-f5 leading-[1.1] font-serif js-lines">-->
+    <!--                                <span class="title-underline">Individual<span class="js-underline"></span></span> Investor-->
+    <!--                            </h2>-->
+    <!--                            <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                <p>S-Corps, LPs, LLCs, Trusts, EB-5 Redeployments, Private Placement Life Insurance, Retirement accounts.</p>-->
+    <!--                            </div>-->
+                                <!-- <a href="#" class="font-medium uppercase group inline-flex rounded-full overflow-hidden relative bg-electric text-stone mt-50 text-f15 js-up js-s-lines-btn">
+    <!--                                <div class="w-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[0%] group-hover:translate-y-[-100%] px-50 h-[6.4rem]"> Learn more</div>-->
+    <!--                                <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[100%] group-hover:translate-y-[0%]" aria-hidden="true">Learn more</div>-->
+    <!--                            </a> -->-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="w-full m:w-1/2 m:flex items-center justify-center bg-oil text-stone">-->
+    <!--                        <div class="flex flex-col items-start px-30 m:pl-130 m:pr-100 py-70 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-30 leading-none js-lines">Business Account</span>-->
+    <!--                            <h2 class="text-f10 m:text-f5 leading-[1.1] font-serif js-lines">-->
+    <!--                                <span class="title-underline">Institutional<span class="js-underline"></span></span> Investor-->
+    <!--                            </h2>-->
+    <!--                            <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                <p>Endowments, Pensions, RIAs</p>-->
+    <!--                            </div>-->
+                                <!-- <a href="#" class="font-medium uppercase group inline-flex rounded-full overflow-hidden relative bg-electric text-stone mt-50 text-f15 js-up js-s-lines-btn">
+    <!--                                <div class="w-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[0%] group-hover:translate-y-[-100%] px-50 h-[6.4rem]"> Learn more</div>-->
+    <!--                                <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[100%] group-hover:translate-y-[0%]" aria-hidden="true">Learn more</div>-->
+    <!--                            </a> -->-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- Slide 7 - Create Account -->
+    <!--            <div class="relative m:fixed m:h-full w-full top-0 left-0 overflow-hidden text-stone js-section">-->
+    <!--                <div class="relative m:absolute top-0 m:left-[13rem] right-0 h-full overflow-hidden flex flex-wrap js-section-inner">-->
+    <!--                    <figure class="w-full m:w-1/2 relative overflow-hidden">-->
+    <!--                        <div class="m:hidden aspect" style="--aspect: 85%"></div> <img src="https://asaanweb.com/CamShaft/assets/page_data/image-4.jpg" class="absolute h-full w-full top-0 left-0 object-cover js-img-scale" alt="Home 5"> </figure>-->
+    <!--                    <div class="w-full m:w-1/2 m:flex items-center justify-center bg-oil m:order-first">-->
+    <!--                        <div class="flex flex-col items-start px-30 m:pl-130 m:pr-100 py-70 m:py-0 js-s-m-lines"> <span class="font-medium text-f15 uppercase mb-20 m:mb-30 leading-none js-lines">GET STARTED NOW</span>-->
+    <!--                            <h2 class="text-f6 m:text-f1 leading-[1.1] font-serif js-lines">Contact <span class="title-underline">Us<span class="js-underline"></span></span>.</h2>-->
+    <!--                            <div class="txt mt-25 m:mt-40 js-p-lines">-->
+    <!--                                <p>We'd love to speak with you, contact Camshaft Capital today.</p>-->
+    <!--                            </div>-->
+    <!--                            <a href="contact.html" class="font-medium uppercase group inline-flex rounded-full overflow-hidden relative bg-electric text-stone mt-50 text-f15 js-up js-s-lines-btn">-->
+    <!--                                <div class="w-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[0%] group-hover:translate-y-[-100%] px-50 h-[6.4rem]"> Contact Us</div>-->
+    <!--                                <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center transition-transform duration-1000 ease-out-expo transform translate-y-[100%] group-hover:translate-y-[0%]" aria-hidden="true">Contact Us</div>-->
+    <!--                            </a>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </article>-->
+    <!--</main>-->
+
+    <main class="main" role="main" itemscope itemprop="mainContentOfPage" data-router-wrapper>
+
+
+        <article data-router-view="default" id="acm-update-04-01-22" class="m:pl-130">
+
+            <div class="overflow-hidden transform origin-top-left rotate-[-90deg] translate-y-[13rem] absolute left-0 bottom-0 hidden m:flex items-center tracking-wider font-medium text-stone w-full h-[13rem] pl-[6.4rem] uppercase text-f15 z-5 pointer-events-none">
+
+                <a href="../news.html" class="block pointer-events-auto js-t-label">Performance</a>
+
+            </div>
+            <div class="bg-oil z-5 text-gold uppercase text-f15 tracking-wider font-medium h-[13rem] pl-220 hidden m:flex items-center absolute w-full border-b border-stone border-opacity-25">
+                <div class="relative h-full flex flex-wrap items-center">
+                    <div class="relative flex flex-wrap overflow-hidden">
+                        <span class="block js-progress-title-1 leading-[1.5] whitespace-nowrap">Camshaft Capital Performance</span>
+                        <span class="block absolute translate-y-full js-progress-title-2 leading-[1.5] whitespace-nowrap" tabindex="-1" aria-hidden="true">Camshaft Capital Performance</span>
+                    </div>
+                    <div class="absolute -bottom-1 h-[0.3rem] w-full">
+                        <div class="js-page-progress origin-left w-full h-full bg-gold"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hidden absolute left-0 bottom-0 items-center tracking-wider font-medium text-stone h-full w-[13rem] pb-[6.4rem] uppercase text-f15" style="writing-mode: vertical-lr">
+                <span class="block rotate-180">News</span>
+            </div>
+
+            <div class="w-full">
+                <div class="screen-h-m w-full overflow-hidden text-gold m:flex items-center justify-center" data-smooth-item>
+                    <div class="m:flex l:pl-220 px-30 m:pr-100 pt-200 pb-100 m:pt-150 m:pb-160 w-full">
+                        <div class="w-full m:w-8/12">
+
+                            <h2 class="text-f6 m:text-f1 leading-[1.1] font-serif js-t-lines js-i-lines">
+                                Delivering Performance Regardless of Market Cycle
+                            </h2>
+                            <div class="txt mt-25 m:mt-40 m:pr-100 js-t-lines-p js-i-lines-p">
+                                <p>Camshaft Capital's multi- layered diversification strategy has allowed our fund to consistently outperform equity indices and our hedge fund peers year-after-year, no matter the market conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="relative w-full px-30 m:pl-0 m:pr-90 bg-stone m:bg-canary" data-smooth-item>
+                    <div class="relative m:bg-stone w-full z-1 m:pl-220 m:flex flex-wrap py-75 m:py-180 text-oil">
+                        <div class="w-full m:w-3/12 text-electric">
+
+                            <div class="relative mb-20">
+                                <span class="block uppercase font-medium text-f15">Written by:</span>
+                                <span class="block font-serif text-f11 leading-[1.2]">William Morton</span>
+                            </div>
+
+                            <div class="relative mb-20">
+                                <span class="block uppercase font-medium text-f15">Date posted:</span>
+                                <span class="block font-serif text-f11 leading-[1.2]">08.07.22</span>
+                            </div>
+                        </div>
+
+                        <div class="w-full m:w-6/12 js-load-resize">
+
+                            <h2 class="text-f10 m:text-f5 font-serif leading-[1.1] mb-40">3<span>&#189;</span> Year Performance Review: 2022, 2021, 2020, 2019</h2>
+
+
+                            <div class="txt">
+                                <p>Heading into 2022, U.S. equities suffered their second worst start to a year in history, with the S&P 500 index declining by -20% in the first six months of 2022. <b>Camshaft Capital, however, posted a 6.53 YTD gain in the same timeframe.</b> </p>
+                                <figure><img src="assets/performance/2022.png" alt="" /></figure>
+                                <p>In 2020 and 2021 we recognized that volatility as opportunity. Rapidly shifting market conditions meant abundant mispriced assets.</p>
+                                <figure><img src="assets/performance/2021.png" alt="" /></figure>
+                                <p>At the same time, we worked diligently to minimize risk, thus outperforming comparable indexes even in strong markets. Carefully chosen and managed asset classes drive non-correlated risk in the portfolio.
+                                <figure><img src="assets/performance/2020.png" alt="" /></figure>
+                                <p>A focus on risk management has driven our results every year since the fund's inception.</p>
+                                <figure><img src="assets/performance/2019.png" alt="" /></figure>
+                                <p>In the end, establishing diverse revenue streams is more than a strategy for market success - it is a mindset for those who know to expect change.</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <article class="relative m:pb-180 m:pr-90 before:hidden m:before:block before:absolute before:inset-0 before:left-90 before:bottom-90 before:bg-canary mt-[-1px]" data-smooth-item>
+                <a class="relative w-full z-2 m:flex bg-gold" href="method.html">
+                    <div class="hidden m:grid relative bg-canary w-full w-[9rem] text-oil uppercase font-medium text-f15 items-center justify-center" style="writing-mode: vertical-lr">
+                        <span class="block m:rotate-180">Our Method</span>
+                    </div>
+                    <div class="bg-gold flex m:hidden items-center h-[4rem] px-30 text-stone uppercase font-medium text-f15" aria-hidden="true">Next article</div>
+                    <div class="relative z-1 px-30 py-40 m:py-150 m:px-130 w-full transition-colors duration-500 ease-in-out hover:bg-electric">
+                        <div class="flex flex flex-wrap text-stone border-b border-stone border-opacity-25 w-full justify-between items-center">
+                            <h2 class="text-[2.2rem] m:text-f3 leading-[1.8] whitspace-nowrap font-serif">Our Method</h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="block color-current fill-current w-[0.53rem] m:w-[1.1rem] h-[1.1rem] m:h-[2.6rem]" viewBox="0 0 11 26" style="enable-background:new 0 0 11 26" xml:space="preserve"><path d="M1.8 25.6.2 24.4 7.8 13 .2 1.6 1.8.4 10.2 13z"/></svg>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </article>
+
+    </main>
+    <div class="js-overlay bg-black fixed w-screen screen-h pointer-events-none opacity-0 top-0 left-0 m:left-[13rem]"> </div>
+    <div class="rotate-device fixed inset-0 bg-oil flex flex-col items-center justify-center text-stone z-[9999]" aria-hidden="true"> <img src="https://asaanweb.com/CamShaft/logo_data/rotate-icon.svg" alt="" class="w-[80px]">
+        <div class="text-[40px] leading-[1.2] font-serif text-center px-[30px] w-[600px] mt-[30px]">Please rotate your device
+            <br>or reload the page</div>
+        <p class="text-[16px] opacity-75 text-center mt-[30px] w-[500px]">Website experience is
+            <br>best viewed in landscape mode</p>
+    </div>
+    <script src="https://asaanweb.com/CamShaft/dist/main.js"></script>
+</body>
+
+</html>
